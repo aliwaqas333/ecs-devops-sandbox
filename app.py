@@ -11,7 +11,7 @@ LOGGER.setLevel(logging.INFO)
 
 @app.route('/<random_string>')
 def returnBackwardsString(random_string):
-    """Reverse and return the provided URI"""
+    """Reverse and return the provided URI -2"""
     LOGGER.info('Received a message: %s', random_string)
     return ""
 
