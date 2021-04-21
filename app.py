@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/<random_string>')
 def returnBackwardsString(random_string):
-    """Reverse and return the provided URI"""
+    """Reverse and return the provided URI LOL"""
     return "".join(reversed(random_string))
 
 if __name__ == '__main__':
