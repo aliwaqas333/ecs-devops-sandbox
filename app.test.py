@@ -7,7 +7,7 @@ class TestApp(unittest.TestCase):
 
     def test_return_backwards_string(self):
         """Test return backwards simple string"""
-        random_string = "This is my test string"
+        random_string = ""
         random_string_reversed = ""
         self.assertEqual(random_string_reversed, returnBackwardsString(random_string))
 
